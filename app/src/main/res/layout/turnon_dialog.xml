@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <!--
+         <TextView
+        android:id="@+id/td_tv_pic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10px"
+        android:layout_marginTop="25px"
+        android:text="设置PIC时间" />
+
+    <EditText
+        android:id="@+id/td_et_pic"
+        android:layout_width="300px"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="115px"
+        android:layout_marginTop="10px"
+        android:inputType="number"
+        android:maxLength="14" />
+    -->
+
+
+    <TextView
+        android:id="@+id/td_tv_kj"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15px"
+        android:layout_marginTop="95px"
+        android:text="开机时间" />
+
+    <EditText
+        android:id="@+id/td_et_kj"
+        android:layout_width="300px"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80px"
+        android:layout_marginTop="80px"
+        android:inputType="number"
+        android:maxLength="4" />
+
+    <TextView
+        android:id="@+id/td_tv_gj"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15px"
+        android:layout_marginTop="165px"
+        android:text="关机时间" />
+
+    <EditText
+        android:id="@+id/td_et_gj"
+        android:layout_width="300px"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80px"
+        android:layout_marginTop="150px"
+        android:inputType="number"
+        android:maxLength="4" />
+
+    <CheckBox
+        android:id="@+id/td_cb_xq1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10px"
+        android:layout_marginTop="250px"
+        android:text="星期一" />
+
+    <CheckBox
+        android:id="@+id/td_cb_xq2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="160px"
+        android:layout_marginTop="250px"
+        android:text="星期二" />
+
+    <CheckBox
+        android:id="@+id/td_cb_xq3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="320px"
+        android:layout_marginTop="250px"
+        android:text="星期三" />
+
+    <CheckBox
+        android:id="@+id/td_cb_xq4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10px"
+        android:layout_marginTop="300px"
+        android:text="星期四" />
+
+    <CheckBox
+        android:id="@+id/td_cb_xq5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="160px"
+        android:layout_marginTop="300px"
+        android:text="星期五" />
+
+    <CheckBox
+        android:id="@+id/td_cb_xq6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="320px"
+        android:layout_marginTop="300px"
+        android:text="星期六" />
+
+    <CheckBox
+        android:id="@+id/td_cb_xq7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10px"
+        android:layout_marginTop="350px"
+        android:text="星期日" />
+
+</FrameLayout>

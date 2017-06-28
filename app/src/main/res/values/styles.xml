@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Activity主题 -->
+    <style name="activityTheme" parent="@android:style/Theme">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="ThemeActivity" mce_bogus="1">
+        <item name="android:windowAnimationStyle">@style/AnimationActivity</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="AnimationActivity" mce_bogus="1" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/anim_enter</item>
+        <item name="android:activityOpenExitAnimation">@anim/anim_exit</item>
+        <item name="android:activityCloseEnterAnimation">@anim/back_enter</item>
+        <item name="android:activityCloseExitAnimation">@anim/back_exit</item>
+    </style>
+
+</resources>
